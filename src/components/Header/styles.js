@@ -4,20 +4,28 @@ import styled from "styled-components";
 export const Container = styled.header`
   grid-area: header;
 
-  height: 105px;
+  height: 100%;
   width: 100%;
 
-  border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  background: ${({ theme }) => theme.COLORS.BACKGROUND_600};
 
   display: flex;
   justify-content: space-between;
-
-  padding: 0 80px;
+  align-items: center;
+  
+  padding: 0 124px;
+  >.btPedido{
+    width: 216px;
+    height: 56px;
+  }
+  >.input{
+    margin-top: 7px;
+    width: 581px;
+    height: 48px;
+  }
 `;
 
-export const Logo = styled.svg`
 
-`
 export const Logout = styled.button`
     border: 0;
     background: none;
