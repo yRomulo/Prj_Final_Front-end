@@ -10,8 +10,8 @@ export const ProductDetails = (name, desc, price) => {
       <div>
         <img src="https://via.placeholder.com/150" alt="Product" />
         <div>
-          <h3>Nome do Produto</h3>
-          <p>Descrição do produto...</p>
+          <h3>Salada Ravanello</h3>
+          <p>Rabanetes, folhas verdes e molho agridoce salpicados com gergelim. O pão naan dá um toque especial.</p>
 
           <div className="product-actions">
             <input type="number" min="1" max="10" defaultValue="1" />

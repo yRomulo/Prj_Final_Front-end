@@ -18,17 +18,32 @@ export const Container = styled.div`
     display: flex;
     margin-top: 42px;
     gap: 50px;
-    >img{
+    > img {
       border-radius: 50%;
       height: 390px;
       width: 390px;
     }
     > div {
+      
+      > h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: bold;
+        font-size: 30px;
+        margin-bottom: 24px;
+      }
+      >p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 16px;
+        margin-bottom: 24px;
+      }
       > .product-actions {
         display: flex;
         gap: 12px;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 50px;
         > input {
           width: 50px;
           padding: 5px;
@@ -42,6 +57,7 @@ export const Container = styled.div`
           border-radius: 5px;
           color: #ffffff;
           cursor: pointer;
+          
         }
       }
     }
